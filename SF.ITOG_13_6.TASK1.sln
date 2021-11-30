@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SF.ITOG_13_6.TASK1_List", "SF.ITOG_13_6.TASK1_List\SF.ITOG_13_6.TASK1_List.csproj", "{D4B33BB4-19DA-4E08-B9F8-20C69A7A5B55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SF.ITOG_13_6.TASK1_LinkedList", "SF.ITOG_13_6.TASK1_LinkedList\SF.ITOG_13_6.TASK1_LinkedList.csproj", "{B31A6C09-F3B1-4D09-B3DE-9387A5136B71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4B33BB4-19DA-4E08-B9F8-20C69A7A5B55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4B33BB4-19DA-4E08-B9F8-20C69A7A5B55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4B33BB4-19DA-4E08-B9F8-20C69A7A5B55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4B33BB4-19DA-4E08-B9F8-20C69A7A5B55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B31A6C09-F3B1-4D09-B3DE-9387A5136B71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B31A6C09-F3B1-4D09-B3DE-9387A5136B71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B31A6C09-F3B1-4D09-B3DE-9387A5136B71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B31A6C09-F3B1-4D09-B3DE-9387A5136B71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12A441E5-401D-4D68-B3A1-359954E52EA0}
+	EndGlobalSection
+EndGlobal
