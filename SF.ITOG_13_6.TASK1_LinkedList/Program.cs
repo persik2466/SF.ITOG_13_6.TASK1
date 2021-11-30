@@ -10,7 +10,7 @@ namespace SF.ITOG_13_6.TASK1_LinkedList
         static void Main(string[] args)
         {
             //Читаем весь файл с рабочего стола
-            string text = File.ReadAllText(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\Text1.txt");  //"D:\\Мама\\Учёба С#\\Модуль 13.1\\Итоги 1\\Text1.txt");
+            string text = File.ReadAllText(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\Text1.txt");
 
             //Создаём список LinkedList
             LinkedList<string> linesLinkedList = new LinkedList<string>();
@@ -30,7 +30,7 @@ namespace SF.ITOG_13_6.TASK1_LinkedList
                 linesLinkedList.AddLast(item);
                 //Console.WriteLine(item);
             }
-            //Смотрим, сколько операция заняла, в миллисекундах 0.7642
+            //Смотрим, сколько операция заняла, в миллисекундах в среднем - 0.7642 мс
             Console.WriteLine("Добавление текста в список LinkedList заняло " + stopWatch.Elapsed.TotalMilliseconds + " мс.");
 
             Console.ReadKey();
