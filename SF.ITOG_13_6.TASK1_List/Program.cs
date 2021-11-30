@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 
-
 namespace SF.ITOG_13_6.TASK1_List
 {
     class Program
